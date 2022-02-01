@@ -69,7 +69,7 @@ public class Controller {
 
 //  the methods are configured to be called by the url
 @Autowired
-        public com.twilio.controller.SessionPrueba prueba;
+        public com.twilio.controller.SessionData prueba;
 
 
 //this method gives us the system time and is used to know if the application is working.
