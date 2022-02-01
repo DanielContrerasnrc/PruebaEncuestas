@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  nrctwilioenc:
+    #name: "NRC_Official"
+    image: coictnrc/tw-enc:v1 #ibmcom/glassfish-ppc64le      # ucalgary/glassfish 
+    ports:
+      - 8080:8080
+
